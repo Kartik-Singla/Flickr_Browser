@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- since background of cardview was not applying as expected on api above 23 so we are targetting a specific version  -->
+<resources>
+    <style name="AppTheme.NoActionBar"> <!-- we have just overrid some settings which were causing trouble in background of cardiew-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackgroundFloating">@color/colorPrimary</item> <!-- '@' means we are reffering to 'res' resource and @color means we are refering to color resource -->
+        <!-- android:colorBackgroundFloating means we are defining the color for floating objects -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

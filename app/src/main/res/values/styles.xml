@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- android: means the namespace which means we are searching for that particular attribute in android framework not in our app (searching in android framework means searching in the stored files in this software not stored in our particular app) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item> <!-- textColorSecondary was added in API 1 so it is available in android framework from the start -->
+        <item name="android:icon">@color/icons</item>
+        <item name="android:windowBackground">@color/primary_light</item>
+        <item name="cardBackgroundColor">@color/colorPrimary</item> <!-- color for card view background -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
